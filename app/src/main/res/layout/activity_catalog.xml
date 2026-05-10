@@ -4,36 +4,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    android:paddingTop="70dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Running Shoes Catalog"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:layout_marginBottom="20dp"/>
 
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Cari sepatu..." />
+        android:layout_height="55dp"
+        android:hint="Search shoes..."
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"
+        android:textColor="#111111"
+        android:textColorHint="#888888"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
 
         <Button
             android:id="@+id/btnAZ"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Sort A-Z"/>
+            android:text="Sort A-Z"
+            android:textStyle="bold"
+            android:backgroundTint="#1D3557"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="6dp"/>
 
         <Button
             android:id="@+id/btnZA"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Sort Z-A"/>
+            android:text="Sort Z-A"
+            android:textStyle="bold"
+            android:backgroundTint="#E63946"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="6dp"/>
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/listShoes"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerShoes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
