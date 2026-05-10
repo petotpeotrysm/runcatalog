@@ -3,11 +3,11 @@
 Nama : Gede Andika Ardana
 NIM : 42430022
 
- Deskripsi Aplikasi
+#Deskripsi Aplikasi
 Aplikasi ini adalah katalog sepatu running Nike dan Adidas yang dibuat menggunakan Android Studio dan bahasa Java.  
 Aplikasi memiliki fitur pencarian data, sorting data, detail produk, dan perpindahan halaman menggunakan intent.
 
- Fitur Aplikasi
+#Fitur Aplikasi
 - Tampilan UI responsive
 - RecyclerView catalog
 - Search shoes
@@ -18,24 +18,24 @@ Aplikasi memiliki fitur pencarian data, sorting data, detail produk, dan perpind
 - Try-catch error handling
 - Logcat menggunakan NIM
 
- Modul yang Digunakan
+#Modul yang Digunakan
 
- Modul 2 & 3
+#Modul 2 & 3
 UI interaktif, adaptif, dan responsive.
 
- Modul 4 & 5
+#Modul 4 & 5
 Intent, variabel, perulangan, percabangan, dan validasi input.
 
- Modul 6
+#Modul 6
 Struktur data Array dan algoritma pencarian Linear Search.
 
- Modul 7
+#Modul 7
 Algoritma sorting A-Z dan Z-A.
 
- Modul 9
+#Modul 9
 Try-catch dan Logcat.
 
- Screenshot Aplikasi
+#Screenshot Aplikasi
 
  Home Page
 ![Home](screenshots/home.jpg)
